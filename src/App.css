@@ -1,0 +1,97 @@
+body {
+  background-image:
+    url("./images/www18.png");
+  background-size: "cover";
+}
+
+.logo {
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 250px;
+}
+
+.logo1 {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  left: 850px;
+}
+
+.logo2 {
+  display: inline-block;
+  position: absolute;
+  top: 140px;
+  left: 220px;
+
+}
+
+.logo3 {
+
+  position: absolute;
+  top: 140px;
+  left: 1070px;
+
+}
+
+form {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  padding: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 50%;
+  position: absolute;
+  top: 180px;
+  left: 370px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+input {
+  width: 200px;
+  height: 30px;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.card1 {
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 35%;
+  position: absolute;
+  top: 160px;
+  left: 410px;
+}
+
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
